@@ -1,0 +1,18 @@
+#spinnerdiv{
+  display: flex;
+  justify-content: center;
+  min-height: 90vh;
+}
+#spinner{
+  width: 30%;
+  height: 30%;
+  align-self: center;
+}
+#navbar{
+background-image: linear-gradient(to bottom right,#4CA9DF,#383ebd);
+}
+@media screen and (min-width: 700px) {
+  #spinner{
+    width: 15%;
+  }
+}
